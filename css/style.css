@@ -2,8 +2,9 @@
     margin: 0;
     padding: 0;
 }
-.slider {
-    height: 90vh;
+.slick-slider2 {
+   width: 98.3%;
+   height: 70vh !important;
 }
 .carousel-caption {
     height: 60%;
@@ -75,12 +76,19 @@
     justify-content: center;
     margin: auto;
   }
-
+.innericon{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
   @media (max-width: 900px) {
     
     .touch img{
         width: 99%;
         padding-top: .7rem;
+    }
+    .innericon{
+      padding-left: 3px !important;
+      padding-right:  3px !important;
     }
 }
   
