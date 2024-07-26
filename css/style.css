@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.slider {
+    height: 90vh;
+}
+.carousel-caption {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.carousel-caption h1 {
+    font-size: 3rem;
+}
+.carousel-caption p {
+    font-size: 1.25rem;
+}
+.label h3 {
+    color: green;
+}
+.services i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: green;
+}
+.services .item {
+    border: .2px solid rgb(231, 228, 228);
+}
+.services p {
+    color: rgb(231, 228, 228);
+}
+.blog {
+    background-color: #116530;
+    color: white;
+    margin-top: 5rem;
+    padding-top: 5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    /* position: absolute; */
+}
+.blog-img {
+    height: 100vh;
+    /* position: relative;
+    bottom: 7rem; */
+    margin-top: -8rem;
+    padding-bottom: 5rem;
+}
+.icons p,
+.label2 {
+    color: white;
+    opacity: .5;  
+}
+.blogh2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+.icon {
+   font-size: 2.5rem;
+   margin-right: 1.5rem;
+}
+.hhh {
+    padding: 3rem 0;
+}
+
+.touch{
+    padding: 5.5rem;
+}
+.blog2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+  }
+
+  @media (max-width: 900px) {
+    
+    .touch img{
+        width: 99%;
+        padding-top: .7rem;
+    }
+}
+  
+.touch .btn{
+    width: 8.5rem;
+    height: 3rem;
+background-color: #116530;
+color: white;
+padding: 12px;
+}
+.touch h3,
+.touch i{
+    color: #116530;
+}
+.touch h3{
+    font-weight: 400;
+    font-size: 2rem;
+}
+  
+.slider2{
+    background-color: black;
+    height: 60vh;
+    color: white;
+}
+.slider2 .text{
+    font-size: 1.5rem;
+}
+.text h3{
+    font-weight: 400;
+    font-size: 2rem;
+}
+.slider3 img{
+   width:400px;
+   background-color: black;
+
+   
+}
+
+@media screen and (max-width: 1225px) {
+    .slider2 {
+      width: 80% !important; 
+    }
+    .slider2 img{
+        align-items: center;
+    }
+    .slider3 img{
+        width: 250px;
+    }
+  }
+  
+  .persons{
+    margin-top: 15rem;
+  }
+
+  .persons h4,
+  .persons h3,
+  .persons h2
+{
+font-size: 1.4rem;
+font-weight: 600;
+}
+.persons img{
+    border-radius:50% ;
+    width: 120px;
+}
+.persons p,
+.persons h2{
+    color: #116530;
+}
+.toblog img{
+    width:500px;
+    /* position: absolute; */
+}
+.cart{
+    width: 400px;
+    background-color: white;
+}
+.toblog .btn{
+    /* position: relative;
+    top: 263px;
+    left: 20rem; */
+
+}
+.container-fluid.toblog {
+    padding: 2rem;
+  }
+  
+  .card {
+    overflow: hidden;
+   
+  }
+  
+  .card img {
+    object-fit: cover;
+    position: relative;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .card-footer {
+    background-color: transparent;
+    border-top: none;
+  }
+  
+  .card-footer .readmore {
+    text-decoration: none;
+  }
+  
+  .row-cols-1 {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  
+  .row-cols-1::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .position-relative {
+    position: relative;
+  }
+  
+  .card .btn {
+    position: absolute;
+    bottom: 160px;
+    left: 91%;
+    transform: translateX(-50%);
+    border-radius: 0 !important;
+  }
+  @media (max-width: 1150px) {
+    .card .btn {
+        position: absolute;
+        bottom: 160px;
+        left: 80% !important;
+        transform: translateX(-50%);
+        border-radius: 0 !important;
+      }
+  }
+  @media (max-width: 768px) {
+    .row-cols-1 {
+      flex-direction: column;
+    }
+  
+    .card {
+      margin-bottom: 1rem;
+    }
+    .card img{
+        width: 700px;
+    }
+  }
+  
+  .footer1{
+    background-color: #f9f9f9;
+  }
+  .footer1 h2{
+    font-weight: 300;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .footer1 h6{
+    opacity: .5;
+  }
+  .footer2{
+    color: white;
+    background-color: #252525;
+    font-weight: 300;
+  }
+.footer2 h1{
+  font-size: 2rem;
+  font-weight: 500;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding-bottom: 1.5rem;
+}
+.footer2 span{
+  font-family: bold;
+  font-size: 1.2rem;
+}
+.footer2 h5 {
+  display: inline-block;
+  position: relative;
+}
+
+.footer2 h5::after {
+  content: '';
+  position: absolute;
+  left: 30%;
+  bottom: -4px; 
+  transform: translateX(-50%);
+  width: 50%; 
+  height: 3px; 
+  background-color: #116530;
+}
+
+  .footer3{
+    background-color: #060606;
+    color: white;
+
+  }
+  .input2{
+    border:1px solid #116530;
+    width: 85% !important;
+    height: 85% !important;
+  }
+  .input3{
+    background-color: #116530 !important;
+    color: white !important;
+  }
+  .input1{
+    border-radius: 0 !important;
+  }  
+  .footer3 i{
+    color: #116530;
+    background-color: #252525 ;
+    font-size: 1.5rem;
+  }
+ .footer3 i:hover{
+   background-color: #116530;
+  color: #252525 ;
+ 
+  }
+  #scrollBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    bottom: 20px; /* Place the button 20px from the bottom */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #116530; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+  }
+  
+  #scrollBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  
