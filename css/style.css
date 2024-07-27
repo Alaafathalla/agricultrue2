@@ -224,8 +224,8 @@ font-weight: 600;
   
   .card .btn {
     position: absolute;
-    bottom: 160px;
-    left: 91%;
+    bottom: 163px;
+    left: 93%;
     transform: translateX(-50%);
     border-radius: 0 !important;
   }
@@ -319,6 +319,12 @@ font-weight: 600;
    background-color: #116530;
   color: #252525 ;
  
+  }
+  .footericon{
+    padding-right: 2.5rem !important;
+  }
+  .footerr p:hover{
+    color: #116530;
   }
   #scrollBtn {
     display: none; /* Hidden by default */
