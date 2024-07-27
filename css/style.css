@@ -4,7 +4,10 @@
 }
 .slick-slider2 {
    width: 98.3%;
-   height: 70vh !important;
+   height: 80% !important;
+}
+.slick-slider2 img{
+  height: 80% !important;
 }
 .carousel-caption {
     height: 60%;
@@ -92,6 +95,9 @@
     }
     .blog-img{
       padding-bottom: 1rem;
+    }
+    .touch{
+      padding: 2rem !important;
     }
 }
   
